@@ -45,8 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/rfsa/adsp/libmare_hexagon_skel.so:system/vendor/lib/rfsa/adsp/libmare_hexagon_skel.so \
     vendor/motorola/clark/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/motorola/clark/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
-    vendor/motorola/clark/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
-    vendor/motorola/clark/proprietary/lib/hw/audio.primary.msm8992.so:system/lib/hw/audio.primary.msm8992.so \
     vendor/motorola/clark/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
     vendor/motorola/clark/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
     vendor/motorola/clark/proprietary/lib64/libqcomfm_jni.so:system/lib64/libqcomfm_jni.so \
@@ -70,7 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/motorola/clark/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/motorola/clark/proprietary/lib/soundfx/libmmieffectswrapper.so:system/lib/soundfx/libmmieffectswrapper.so \
-    vendor/motorola/clark/proprietary/lib/soundfx/libspeakerbundle.so:system/lib/soundfx/libspeakerbundle.so \
     vendor/motorola/clark/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
     vendor/motorola/clark/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/clark/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
@@ -80,7 +77,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/motorola/clark/proprietary/etc/firmware/florida-dsp2-aov-frontend.wmfw:system/etc/firmware/florida-dsp2-aov-frontend.wmfw \
     vendor/motorola/clark/proprietary/etc/firmware/florida-dsp3-aov-control.wmfw:system/etc/firmware/florida-dsp3-aov-control.wmfw \
-    vendor/motorola/clark/proprietary/etc/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
     vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.music.config:system/etc/firmware/left.tfa9890.music.config \
     vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.music.eq:system/etc/firmware/left.tfa9890.music.eq \
     vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.ringtone.config:system/etc/firmware/left.tfa9890.ringtone.config \
@@ -124,7 +120,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libbt-vendor.so:system/vendor/lib64/libbt-vendor.so \
     vendor/motorola/clark/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
-    vendor/motorola/clark/proprietary/bin/mediaserver:system/bin/mediaserver \
     vendor/motorola/clark/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/clark/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/motorola/clark/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -383,14 +378,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/motorola/clark/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/motorola/clark/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/motorola/clark/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/motorola/clark/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/motorola/clark/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
-    vendor/motorola/clark/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/motorola/clark/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/motorola/clark/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/motorola/clark/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
-    vendor/motorola/clark/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
     vendor/motorola/clark/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
@@ -405,7 +392,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/motorola/clark/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/motorola/clark/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/motorola/clark/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/motorola/clark/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/motorola/clark/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
