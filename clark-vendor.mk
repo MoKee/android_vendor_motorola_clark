@@ -50,7 +50,8 @@ PRODUCT_PACKAGES += \
 # Prebuilt libs needed for compilation
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
-    libloc_ds_api
+    libloc_ds_api \
+    libril
 
 # Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += \
