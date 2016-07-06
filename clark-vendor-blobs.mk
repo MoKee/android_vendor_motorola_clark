@@ -516,7 +516,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/bin/diag_mdlog-wrap:system/bin/diag_mdlog-wrap \
     vendor/motorola/clark/proprietary/bin/diag_qshrink4_daemon:system/bin/diag_qshrink4_daemon \
     vendor/motorola/clark/proprietary/bin/port-bridge:system/bin/port-bridge \
-    vendor/motorola/clark/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/clark/proprietary/bin/test_diag:system/bin/test_diag \
     vendor/motorola/clark/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/motorola/clark/proprietary/bin/netmgrd:system/bin/netmgrd \
