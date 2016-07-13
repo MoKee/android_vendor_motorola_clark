@@ -51,8 +51,7 @@ PRODUCT_PACKAGES += \
 # Prebuilt libs needed for compilation
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
-    libloc_ds_api \
-    libril
+    libloc_ds_api
 
 # Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += \
